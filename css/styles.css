@@ -1284,6 +1284,18 @@ header .container .header-right a:hover {
   padding-bottom: 40px;
 }
 
+.G-wrapper .youtube iframe {
+  width: 560px;
+  height: 315px;
+}
+
+@media (max-width: 670px) {
+  .G-wrapper .youtube iframe {
+    width: 420px;
+    height: 236px;
+  }
+}
+
 .G-wrapper .text-buy {
   text-align: center;
 }
@@ -1586,5 +1598,131 @@ header .container .header-right a:hover {
 .J-wrapper .questions .answer a {
   color: #fc0075;
   text-decoration: underline;
+}
+
+.K-wrapper {
+  background-image: url("../img/juken.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.K-wrapper h2, .K-wrapper p {
+  color: #fff;
+  text-align: center;
+}
+
+.K-wrapper h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 5px;
+  padding-bottom: 30px;
+}
+
+.K-wrapper p {
+  font-size: 0.8rem;
+  line-height: 200%;
+}
+
+.K-wrapper .jukenryou {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row nowrap;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 30px auto 0 auto;
+  width: 90%;
+}
+
+@media (max-width: 1000px) {
+  .K-wrapper .jukenryou {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: column nowrap;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    width: 100%;
+    max-width: 400px;
+    margin: 30px auto 0 auto;
+  }
+}
+
+.K-wrapper .jukenryou__first, .K-wrapper .jukenryou__second, .K-wrapper .jukenryou__third {
+  background-color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  width: 30%;
+  border-radius: 10px;
+  margin: 0 15px;
+  padding: 15px;
+}
+
+@media (max-width: 1000px) {
+  .K-wrapper .jukenryou__first, .K-wrapper .jukenryou__second, .K-wrapper .jukenryou__third {
+    width: 100%;
+    margin: 0 0 30px 0;
+  }
+}
+
+.K-wrapper .jukenryou__first h3, .K-wrapper .jukenryou__second h3, .K-wrapper .jukenryou__third h3 {
+  font-size: 1.2rem;
+}
+
+.K-wrapper .jukenryou__first .price, .K-wrapper .jukenryou__second .price, .K-wrapper .jukenryou__third .price {
+  appearance: menulist-button;
+  -moz-appearance: menulist-button;
+  -webkit-appearance: menulist-button;
+  border: 1px solid #000;
+  background-color: #fff;
+  font-size: 0.9rem;
+  padding-left: 3px;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+.K-wrapper .jukenryou__first .price button, .K-wrapper .jukenryou__second .price button, .K-wrapper .jukenryou__third .price button {
+  display: block;
+}
+
+footer {
+  text-align: center;
+  padding-top: 40px;
+}
+
+footer img {
+  width: 200px;
+}
+
+footer p {
+  vertical-align: text-bottom;
+}
+
+footer a {
+  font-size: 0.7rem;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer .footer__link {
+  margin-bottom: 40px;
+}
+
+footer .copy {
+  background-color: #000;
+  color: #fff;
+  font-size: 0.7rem;
+  padding: 20px;
 }
 /*# sourceMappingURL=styles.css.map */
