@@ -476,6 +476,7 @@ template {
 }
 
 header {
+  display: none;
   height: 80px;
   background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
