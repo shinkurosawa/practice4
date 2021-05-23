@@ -1292,7 +1292,7 @@ header .container .header-right a:hover {
 
 @media (max-width: 670px) {
   .G-wrapper .youtube iframe {
-    width: 420px;
+    width: 320px;
     height: 236px;
   }
 }
@@ -1638,9 +1638,21 @@ header .container .header-right a:hover {
   padding-bottom: 30px;
 }
 
+@media (max-width: 670px) {
+  .K-wrapper h2 {
+    font-size: 0.9rem;
+  }
+}
+
 .K-wrapper p {
   font-size: 0.8rem;
   line-height: 200%;
+}
+
+@media (max-width: 670px) {
+  .K-wrapper p {
+    margin: 0 10px;
+  }
 }
 
 .K-wrapper .jukenryou {
@@ -1668,7 +1680,7 @@ header .container .header-right a:hover {
     -webkit-flex-flow: column nowrap;
         -ms-flex-flow: column nowrap;
             flex-flow: column nowrap;
-    width: 100%;
+    width: 90%;
     max-width: 400px;
     margin: 30px auto 0 auto;
   }
